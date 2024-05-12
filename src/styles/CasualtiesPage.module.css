@@ -1,0 +1,716 @@
+.casualJpegIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("../assets/3.png");
+  background-repeat: no-repeat;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-cadetblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 125px;
+  height: 52px;
+}
+.backToHome {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  color: white; /* Make font color white for "Back to Home" button */
+  font-size: 15px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 15px;
+  left:59px;
+  width: 185px;
+  height: 48px;
+  background-color: lightblue; /* Light blue background for buttons */
+}
+
+.casualtiesPageChild,
+.casualtiesPageInner {
+  position: absolute;
+  width: 125px;
+  height: 52px;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 12px;
+}
+.casualtiesPageInner {
+  top: 23px;
+  left: 11px;
+  cursor: pointer;
+  text-align: center;
+}
+.casualtiesPageChild {
+  top: 22px;
+  left: 1013px;
+  text-align: center;
+}
+.august131868,
+.date,
+.may221960,
+.november41952 {
+  position: absolute;
+  top: 349px;
+  left: 200px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px;
+}
+.august131868,
+.date,
+.may221960 {
+  top: 383px;
+  text-align: center;
+  font-size: 12px;
+  left: 200px;
+}
+.date,
+.may221960 {
+  top: 163px;
+  text-align: center;
+  font-size: 12px;
+  left: 200px;
+}
+.may221960 {
+  top: 200px;
+  text-align: center;
+  font-size: 12px;
+  left: 200px;
+}
+.december262004,
+.february272010,
+.january261700,
+.march112011,
+.march281964 {
+  position: absolute;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  top: 271px;
+  text-align: center;
+  font-size: 12px;
+  left: 200px;
+}
+.february272010,
+.january261700,
+.march112011,
+.march281964 {
+  top: 238px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.february272010,
+.january261700,
+.march112011 {
+  top: 309px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.february272010,
+.january261700 {
+  top: 417px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.february272010 {
+  top: 453px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.january131906,
+.noofInjured,
+.november11755 {
+  position: absolute;
+  top: 491px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.noofInjured,
+.november11755 {
+  top: 528px;
+  left: 200px;
+  text-align: center;
+  font-size: 12px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.noofInjured {
+  top: 341px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.noofInjured {
+  top: 376px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px;
+}
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.noofInjured {
+  top: 163px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px;
+}
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  top: 200px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  top: 270px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  top: 237px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  top: 308px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b6,
+.b7,
+.b8,
+.b9 {
+  top: 411px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b7,
+.b8,
+.b9 {
+  top: 451px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b8,
+.b9 {
+  top: 488px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.b9 {
+  top: 523px;
+  left: 503px;
+  text-align: center;
+  font-size: 12px
+}
+.approx1655,
+.approx230000,
+.b10,
+.b11,
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17,
+.noOfDeaths {
+  position: absolute;
+  top: 344px;
+  left: 652px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px
+}
+.approx1655,
+.approx230000,
+.b11,
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17,
+.noOfDeaths {
+  top: 377px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.approx1655,
+.approx230000,
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17,
+.noOfDeaths {
+  top: 163px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.approx1655,
+.approx230000,
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17 {
+  top: 200px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.approx230000,
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17 {
+  top: 272px;
+  text-align: center;
+  font-size: 12px;
+  left: 657
+}
+.b12,
+.b13,
+.b14,
+.b15,
+.b16,
+.b17 {
+  top: 235px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.b13,
+.b14,
+.b15,
+.b16,
+.b17 {
+  top: 308px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.b14,
+.b15,
+.b16,
+.b17 {
+  top: 413px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.b15,
+.b16,
+.b17 {
+  top: 453px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.b16,
+.b17 {
+  top: 488px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.b17 {
+  top: 525px;
+  text-align: center;
+  font-size: 12px;
+  left: 652
+}
+.aricaPeru,
+.chile,
+.kamchatka,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  position: absolute;
+  top: 347px;
+  left: 350px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px;
+}
+.aricaPeru,
+.chile,
+.kamchatka,
+.location,
+.westCoastSumatra {
+  top: 383px;
+  text-align: center;
+  font-size: 12px;
+  left: 350px;
+}
+.chile,
+.kamchatka,
+.location,
+.westCoastSumatra {
+  top: 163px;
+  text-align: center;
+  font-size: 12px;
+  left: 350px;
+}
+.chile,
+.kamchatka,
+.westCoastSumatra {
+  top: 200px;
+    text-align: center;
+  font-size: 12px;
+  left: 350px;
+}
+.kamchatka,
+.westCoastSumatra {
+  top: 273px;
+  width: 135px;
+  text-align: center;
+  font-size: 12px;
+  left: 350px;
+}
+.kamchatka {
+  top: 238px;
+  width: 131px;
+  text-align: center;
+  font-size: 12px;
+  left: 350px;
+}
+.b18,
+.bioBioChile,
+.coastOfEcuador,
+.eastCoastOf,
+.lisbon,
+.million,
+.northAmerica {
+  position: absolute;
+  top: 309px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px;
+  left: 353px;
+}
+.b18,
+.bioBioChile,
+.coastOfEcuador,
+.lisbon,
+.million,
+.northAmerica {
+  top: 417px;
+  text-align: center;
+  font-size: 12px;
+  left: 353px;
+}
+.b18,
+.bioBioChile,
+.coastOfEcuador,
+.lisbon,
+.million {
+  top: 454px;
+  text-align: center;
+  font-size: 12px;
+  left: 353px;  
+}
+.b18,
+.coastOfEcuador,
+.lisbon,
+.million {
+  top: 489px;
+  text-align: center;
+  font-size: 12px;
+  left: 353px;
+}
+.b18,
+.lisbon,
+.million {
+  top: 525px;
+  text-align: center;
+  font-size: 12px;
+  left: 353px;
+}
+.b18,
+.million {
+  top: 343px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b18 {
+  top: 379px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.billion,
+.billion1,
+.costOfCasualties,
+.million1,
+.million2,
+.million3 {
+  position: absolute;
+  top: 164px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.billion,
+.billion1,
+.million1,
+.million2,
+.million3 {
+  top: 200px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.billion,
+.billion1,
+.million2,
+.million3 {
+  top: 273px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.billion,
+.billion1,
+.million3 {
+  top: 235px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.billion1,
+.million3 {
+  top: 307px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b19,
+.b20,
+.b21,
+.million3 {
+  top: 414px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b20,
+.b21,
+.million3 {
+  top: 454px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b20,
+.b21 {
+  top: 490px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.b21 {
+  top: 525px;
+  left: 807px;
+  text-align: center;
+  font-size: 12px;
+}
+.casualtiesPage {
+  width: 100%;
+  height: 677px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+
+.casualJpegIcon {
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 1144px;
+  height: 672px;
+  object-fit: cover;
+}
+
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-cadetblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 125px;
+  height: 52px;
+}
+
+.backToHome {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85.1px;
+  height: 19.5px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+  background-color: var(--color-cadetblue); /* Light blue background */
+  border-radius: var(--br-8xs); /* Apply border-radius */
+  border: 1px solid var(--color-black);
+  color: white; /* Text color */
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125px;
+  height: 52px;
+}
+
+.casualtiesPageChild,
+.casualtiesPageInner {
+  position: absolute;
+  width: 125px;
+  height: 52px;
+  color: var(--color-white);
+}
+
+.casualtiesPageInner {
+  top: 23px;
+  left: 11px;
+  cursor: pointer;
+}
+
+.casualtiesPageChild {
+  top: 22px;
+  left: 1013px;
+}
+
+.buttonText {
+  color: white; /* Make font color white for buttons */
+}

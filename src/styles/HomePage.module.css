@@ -1,0 +1,102 @@
+.seismohistoryBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("../assets/1.png");
+  background-repeat: no-repeat;
+}
+
+/* Remove the small icon */
+.seismohistoryBackground::before {
+  content: none;
+}
+
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-cadetblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 185px;
+  height: 48px;
+  color: white; /* Set font color to white */
+}
+
+.top10Strongest {
+  margin: 0;
+  font-size: 14px; /* Adjusted font size */
+  color: white; /* Set font color to white */
+}
+
+.top10StrongestContainer {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  display: inline-block;
+  width: 117px;
+  height: 26px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+
+.rectangleParent {
+  position: absolute; /* Adjusted to fixed position */
+  top: 17px;
+  right: 743px; /* Adjusted position */
+  width: 185px;
+  height: 48px;
+  cursor: pointer;
+  background-color: lightblue; /* Light blue background */
+}
+
+.casualties {
+  position: absolute;
+  top: 15px;
+  left: 58px;
+  font-size: 14px; /* Adjusted font size */
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  color: white; /* Set font color to white */
+}
+
+.rectangleGroup {
+  position: absolute; /* Adjusted to fixed position */
+  top: 17px;
+  right: 541px; /* Adjusted position */
+  width: 185px;
+  height: 48px;
+  cursor: pointer;
+  background-color: lightblue; /* Light blue background */
+}
+
+.shakerTable {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  font-size: 14px; /* Adjusted font size */
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  color: white; /* Set font color to white */
+}
+
+.rectangleContainer {
+  position: absolute; /* Adjusted to fixed position */
+  top: 17px;
+  right: 339px; /* Adjusted position */
+  width: 185px;
+  height: 48px;
+  cursor: pointer;
+  background-color: lightblue; /* Light blue background */
+}
+
+.homePage {
+  width: 100%;
+  height: 668px;
+  position: absolute;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}

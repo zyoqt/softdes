@@ -1,0 +1,402 @@
+.top10Jpeg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("../assets/2.png");
+  background-repeat: no-repeat;
+}
+
+.august131868,
+.november41952 {
+  position: absolute;
+  top: 340px;
+  left: 330px;
+  text-align: right;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+}
+
+.august131868 {
+  top: 375px;
+}
+
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-cadetblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 185px;
+  height: 48px;
+}
+
+.casualties {
+  position: absolute;
+  top: 15px;
+  left:59px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  color: white; /* Make font color white for casualties button */
+  font-size: 15px;
+}
+
+.rectangleParent,
+.top10Inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 48px;
+  background-color: lightblue; /* Light blue background for buttons */
+}
+
+.backToHome {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  color: white; /* Make font color white for "Back to Home" button */
+  font-size: 15px;
+}
+
+.top10Inner {
+  top: 22px;
+  left: 938px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.frame,
+.frame1,
+.top10Child {
+  position: absolute;
+  top: 22px;
+  width: 185px;
+  text-align: center;
+  
+}
+
+.top10Child {
+  left: 7px;
+  height: 480px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.frame,
+.frame1 {
+  left: 938px;
+  height: 141px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+
+.frame1 {
+  left: 7px;
+  height: 142px;
+  text-align: center;
+}
+
+.date,
+
+.december262004,
+.january261700,
+.march112011,
+.march281964,
+.may221960 {
+  position: absolute;
+  top: 160px;
+  left: 345px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+}
+
+.december262004,
+.january261700,
+.march112011,
+.march281964,
+.may221960 {
+  top: 197px;
+  left: 345px;
+}
+
+.december262004,
+.january261700,
+.march112011,
+.march281964 {
+  top: 269px;
+  left: 347px;
+}
+
+.january261700,
+.march112011,
+.march281964 {
+  top: 232px;
+  left: 347px;
+}
+
+.january261700,
+.march112011 {
+  top: 304px;
+  left: 347px;
+}
+
+.january261700 {
+  top: 413px;
+  left: 347px;
+}
+
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.february272010,
+.january131906,
+.magnitude,
+.november11755 {
+  position: absolute;
+  top: 446px;
+  left: 347px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+}
+
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.january131906,
+.magnitude,
+.november11755 {
+  top: 485px;
+}
+
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.magnitude,
+.november11755 {
+  top: 520px;
+}
+
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.magnitude {
+  top: 340px;
+  left: 648px;
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.magnitude {
+  top: 375px;
+}
+
+.b2,
+.b3,
+.b4,
+.b5,
+.magnitude {
+  top: 160px;
+}
+
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 197px;
+}
+
+.b3,
+.b4,
+.b5 {
+  top: 269px;
+}
+
+.b4,
+.b5 {
+  top: 233px;
+}
+
+.b5 {
+  top: 305px;
+}
+
+.aricaPeru,
+.b6,
+.b7,
+.b8,
+.b9,
+.chile,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  position: absolute;
+  top: 409px;
+  left: 648px;
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  text-align: center;
+}
+
+.aricaPeru,
+.b7,
+.b8,
+.b9,
+.chile,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  top: 489px;
+  text-align: center;
+}
+
+.aricaPeru,
+.b8,
+.b9,
+.chile,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  top: 525px;
+  text-align: center;
+}
+
+.aricaPeru,
+.b9,
+.chile,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  top: 450px;
+  text-align: center;
+}
+
+.aricaPeru,
+.chile,
+.location,
+.sovietUnion,
+.westCoastSumatra {
+  top: 340px;
+  left: 489px;
+  text-align: center;
+}
+
+.aricaPeru,
+.chile,
+.location,
+.westCoastSumatra {
+  top: 372px;
+  text-align: center;
+}
+
+.chile,
+.location,
+.westCoastSumatra {
+  top: 160px;
+   text-align: center;
+}
+
+.chile,
+.westCoastSumatra {
+  top: 197px;
+  text-align: center;
+}
+
+.westCoastSumatra {
+  top: 267px;
+  width: 135px;
+  text-align: center;
+  
+}
+
+.bioBioChile,
+.coastOfEcuador,
+.eastCoastOf,
+.kamchatka,
+.lisbon,
+.northAmerica {
+  position: absolute;
+  top: 233px;
+  left: 489px;
+  display: inline-block;
+  text-align: center;
+  width: 131px;
+  height: 24px;
+}
+
+.bioBioChile,
+.coastOfEcuador,
+.eastCoastOf,
+.lisbon,
+.northAmerica {
+  top: 302px;
+  text-align:center;
+}
+
+.bioBioChile,
+.coastOfEcuador,
+.lisbon,
+.northAmerica {
+  top: 410px;
+  text-align:center;
+}
+
+.bioBioChile,
+.coastOfEcuador,
+.lisbon {
+  top: 448px;
+  text-align:center;
+}
+
+.coastOfEcuador,
+.lisbon {
+  top: 486px;
+  text-align:center;
+}
+
+.lisbon {
+  top: 524px;
+  text-align:center;
+}
+
+.top10 {
+  width: 100%;
+  height: 555px;
+  position:static;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+  text-align:center;
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+  font-size: 12px;
+}
+
+.button-text {
+  color: white; /* Make font color white for buttons */
+}
